@@ -69,15 +69,13 @@ function formatContent(content, type) {
 
 function getPlaceholder(type) {
     const placeholders = {
-        'text': '輸入要編碨的文字...',
-        'url': '輸入網址 (e.g., example.com)',
+'輸入QR碼中要呈現的文字'        'url': '輸入網址 (e.g., example.com)',
         'email': '輸入郵件地址',
         'phone': '輸入電話號碼',
         'sms': '輸入電話號碼',
         'geo': '輸入座標 (lat,lng)',
         'wifi': '輸入 WiFi 設定',
-        'vcard': '輸入联絡人資訊'
-    };
+'輸入联絡人資訊'    };
     return placeholders[type] || '輸入內容...';
 }
 
