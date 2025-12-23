@@ -40,7 +40,7 @@ function updateQRCode() {
     }
     
     const encodedContent = encodeURIComponent(formatContent(content, currentType));
-    qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodedContent}`;
+    qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=${encodedContent}`;
     
     qrImage.src = qrCodeUrl;
     qrImage.classList.add('active');
